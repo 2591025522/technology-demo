@@ -4,33 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74f6633-43d3-4d59-9a53-528d940e28e4" name="更改" comment="工厂模式创建">
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/src/main/java/com/huli/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/src/main/java/com/huli/logger/AbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/src/main/java/com/huli/logger/ChainOfLoggers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/src/main/java/com/huli/logger/impl/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/src/main/java/com/huli/logger/impl/ErrorLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/src/main/java/com/huli/logger/impl/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/src/main/java/com/huli/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/factory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/factory/impl/ColorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/factory/impl/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/factoryproduer/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/interfaces/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/interfaces/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/interfaces/impl/Gree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/interfaces/impl/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/interfaces/impl/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java/com/huli/interfaces/impl/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e74f6633-43d3-4d59-9a53-528d940e28e4" name="更改" comment="工厂模式，抽象工厂，原型（没写）,规则链模式，模板模式（没写）">
+      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/src/main/java/com/huli/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/src/main/java/com/huli/impl/Cricket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/src/main/java/com/huli/impl/Football.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/src/main/java/com/huli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/src/main/java/com/huli/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.Main (4)">
+  <component name="RunManager" selected="应用程序.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huli.Main" />
       <module name="singleton" />
@@ -141,11 +119,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huli.Main" />
-      <module name="prototype" />
+      <module name="Template" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.huli.*" />
@@ -158,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Main (5)" />
         <item itemvalue="应用程序.Main (4)" />
         <item itemvalue="应用程序.Main (3)" />
         <item itemvalue="应用程序.Main (2)" />
         <item itemvalue="应用程序.Main (1)" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +154,7 @@
       <workItem from="1698395368014" duration="3036000" />
       <workItem from="1698626055671" duration="4678000" />
       <workItem from="1698632985616" duration="66000" />
-      <workItem from="1698633260064" duration="7844000" />
+      <workItem from="1698633260064" duration="9465000" />
     </task>
     <task id="LOCAL-00001" summary="工厂模式创建">
       <created>1698633012745</created>
@@ -187,15 +163,41 @@
       <option name="project" value="LOCAL" />
       <updated>1698633012745</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="工厂模式，抽象工厂，原型（没写）,规则链模式，模板模式（没写）">
+      <created>1698650485981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698650485981</updated>
+    </task>
+    <task id="LOCAL-00003" summary="工厂模式，抽象工厂，原型（没写）,规则链模式，模板模式（没写）">
+      <created>1698650502344</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698650502344</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="工厂模式创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="工厂模式创建" />
+    <MESSAGE value="工厂模式，抽象工厂，原型（没写）,规则链模式，模板模式（没写）" />
+    <option name="LAST_COMMIT_MESSAGE" value="工厂模式，抽象工厂，原型（没写）,规则链模式，模板模式（没写）" />
   </component>
 </project>
