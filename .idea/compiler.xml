@@ -9,11 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="singleton" />
         <module name="factory" />
+        <module name="Abstract_Factory" />
+        <module name="springboot_socket" />
         <module name="Chain_of_Responsibility" />
         <module name="prototype" />
-        <module name="Abstract_Factory" />
         <module name="Template" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot_socket" options="-parameters" />
+    </option>
   </component>
 </project>
