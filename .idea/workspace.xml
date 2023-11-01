@@ -4,26 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74f6633-43d3-4d59-9a53-528d940e28e4" name="更改" comment="原型（没写）,模板模式">
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/src/main/java/com/huli/springboot_socket/SpringbootSocketApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/src/main/java/com/huli/springboot_socket/socket/ServerSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/src/main/java/com/huli/springboot_socket/thread/ServerReceiveThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/src/test/java/com/huli/springboot_socket/SpringbootSocketApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientHeartThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientPrintThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientTest.java" afterDir="false" />
+    <list default="true" id="e74f6633-43d3-4d59-9a53-528d940e28e4" name="更改" comment="springboot与socket的结合通信">
+      <change afterPath="$PROJECT_DIR$/communication/netty/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/netty/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/netty/src/main/java/com/huli/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/netty/src/main/java/com/huli/server/SimpleNettyServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/src/main/java/com/huli/springboot_socket/SpringbootSocketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/main/java/com/huli/springboot_socket/SpringbootSocketApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/src/main/java/com/huli/springboot_socket/socket/ServerSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/main/java/com/huli/springboot_socket/socket/ServerSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/src/main/java/com/huli/springboot_socket/thread/ServerReceiveThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/main/java/com/huli/springboot_socket/thread/ServerReceiveThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/src/test/java/com/huli/springboot_socket/SpringbootSocketApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/SpringbootSocketApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientHeartThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientHeartThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientPrintThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientPrintThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Test_Files/github_warehouse/technology-demo/socket",
+    "last_opened_file_path": "D:/Test_Files/github_warehouse/technology-demo/communication",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -188,7 +191,9 @@
       <workItem from="1698715933595" duration="1318000" />
       <workItem from="1698717288349" duration="6433000" />
       <workItem from="1698726474855" duration="188000" />
-      <workItem from="1698731815675" duration="5295000" />
+      <workItem from="1698731815675" duration="6099000" />
+      <workItem from="1698738044330" duration="189000" />
+      <workItem from="1698738516350" duration="7702000" />
     </task>
     <task id="LOCAL-00001" summary="工厂模式创建">
       <created>1698633012745</created>
@@ -218,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698651970771</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="springboot与socket的结合通信">
+      <created>1698737151923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698737151923</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +252,8 @@
     <MESSAGE value="工厂模式创建" />
     <MESSAGE value="工厂模式，抽象工厂，原型（没写）,规则链模式，模板模式（没写）" />
     <MESSAGE value="原型（没写）,模板模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="原型（没写）,模板模式" />
+    <MESSAGE value="springboot与socket的结合通信" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot与socket的结合通信" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

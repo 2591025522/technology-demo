@@ -11,8 +11,11 @@ public class ClientTest {
     private static String host = "127.0.0.1";
     private static int port = 1024;
     public static void main(String[] args) {
-        executorService.execute(new ClientPrintThread(host,port));
-        executorService.execute(new ClientHeartThread(host,port));
+
+        ClientPrintThread clientPrintThread = new ClientPrintThread(host,port);
+        clientPrintThread.run();
+//        executorService.execute(new ClientPrintThread(host,port));
+//        executorService.execute(new ClientHeartThread(host,port));
 //        new Thread(new ClientPrintThread(host,port)).start();
 //        new Thread(new ClientHeartThread(host,port)).start();
     }

@@ -26,7 +26,7 @@ public class ServerSocketConfig {
             log.info("socket服务端开启");
             while (true){
                 Socket socket = serverSocket.accept();
-                System.out.println("接收到客户端socket" + socket.getRemoteSocketAddress());
+                System.out.println("客户端socket用户地址：" + socket.getRemoteSocketAddress() + "已链接");
                 threadpool.execute(new ServerReceiveThread(socket));
             }
         } catch (IOException e) {

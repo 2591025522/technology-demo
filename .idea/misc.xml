@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/pom.xml" />
         <option value="$PROJECT_DIR$/scoket/springboot_socket/pom.xml" />
         <option value="$PROJECT_DIR$/socket/springboot_socket/pom.xml" />
+        <option value="$PROJECT_DIR$/communication/springboot_socket/pom.xml" />
+        <option value="$PROJECT_DIR$/communication/netty/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

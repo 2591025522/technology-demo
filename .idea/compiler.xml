@@ -14,6 +14,7 @@
         <module name="Chain_of_Responsibility" />
         <module name="prototype" />
         <module name="Template" />
+        <module name="netty" />
       </profile>
     </annotationProcessing>
   </component>
