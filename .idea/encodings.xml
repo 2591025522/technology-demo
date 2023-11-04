@@ -2,18 +2,12 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/communication/netty/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/communication/netty/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communication/springboot_socket/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communication/springboot_socket/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/design_mode/Behavioral_Patterns/Chain_of_Responsibility/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/design_mode/Behavioral_Patterns/Template/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/design_mode/creational_patten/Abstract_Factory/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design_mode/creational_patten/factory/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/design_mode/creational_patten/factory/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design_mode/creational_patten/prototype/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/design_mode/creational_patten/prototype/src/main/resources" charset="UTF-8" />
   </component>
 </project>
