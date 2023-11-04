@@ -1,5 +1,9 @@
-package com.huli.springboot_socket.test;
+package com.huli.springboot_socket.client;
 
+import com.huli.springboot_socket.test.ClientPrintThread;
+import com.huli.springboot_socket.thread.Client;
+
+import com.huli.springboot_socket.thread.ClientWrite;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.concurrent.ExecutorService;
@@ -12,8 +16,20 @@ public class ClientTest {
     private static int port = 1024;
     public static void main(String[] args) {
 
-        ClientPrintThread clientPrintThread = new ClientPrintThread(host,port);
-        clientPrintThread.run();
+        Client client = Client.connect(host,port);
+//        client.connect(host,port);
+        client.onRead();
+        client.sendMessage("1");
+        client.sendMessage("1");
+        client.sendMessage("1");
+        client.sendMessage("1");
+        client.sendMessage("1");
+        client.sendMessage("1");
+        client.sendMessage("1");
+//        client.sendMessage("123");
+//        ClientWrite.sendMessage(client.getPrintWriter(),"123");
+
+
 //        executorService.execute(new ClientPrintThread(host,port));
 //        executorService.execute(new ClientHeartThread(host,port));
 //        new Thread(new ClientPrintThread(host,port)).start();

@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e74f6633-43d3-4d59-9a53-528d940e28e4" name="更改" comment="springboot与socket（高级流的使用）">
-      <change afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/WebSocketMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/thread/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/thread/ClientReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/thread/ClientWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/thread/ServerReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/thread/ServerWrite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/communication/springboot_socket/src/main/java/com/huli/springboot_socket/thread/ServerReceiveThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/main/java/com/huli/springboot_socket/thread/ServerReceiveThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/SpringbootSocketApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/SpringbootSocketApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/client/ClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/SocketClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,15 +63,19 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.huli.springboot_socket" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.huli.springboot_socket.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootSocketApplication">
-    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huli.springboot_socket.test.ClientTest" />
+  <component name="RunManager" selected="应用程序.Server">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huli.springboot_socket.client.Client" />
       <module name="springboot_socket" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huli.Main" />
-      <module name="Chain_of_Responsibility" />
+    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huli.springboot_socket.client.ClientTest" />
+      <module name="springboot_socket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huli.*" />
+          <option name="PATTERN" value="com.huli.springboot_socket.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huli.Main" />
-      <module name="Template" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huli.springboot_socket.server.Server" />
+      <module name="springboot_socket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huli.*" />
+          <option name="PATTERN" value="com.huli.springboot_socket.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.SocketClient" />
+        <item itemvalue="应用程序.Server" />
         <item itemvalue="应用程序.ClientTest" />
+        <item itemvalue="应用程序.Client" />
         <item itemvalue="JUnit.SpringbootSocketApplicationTests.contextLoads" />
-        <item itemvalue="应用程序.Main (5)" />
-        <item itemvalue="应用程序.Main (4)" />
+        <item itemvalue="应用程序.SocketClient" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +181,10 @@
       <workItem from="1699029266362" duration="129000" />
       <workItem from="1699029553803" duration="948000" />
       <workItem from="1699067575009" duration="15745000" />
+      <workItem from="1699090768157" duration="942000" />
+      <workItem from="1699104819286" duration="1896000" />
+      <workItem from="1699110547918" duration="2712000" />
+      <workItem from="1699116223510" duration="18801000" />
     </task>
     <task id="LOCAL-00001" summary="工厂模式创建">
       <created>1698633012745</created>
@@ -214,7 +228,28 @@
       <option name="project" value="LOCAL" />
       <updated>1699067764800</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="springboot与socket（高级流的使用）">
+      <created>1699090874470</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699090874470</updated>
+    </task>
+    <task id="LOCAL-00008" summary="springboot与socket（高级流的使用）">
+      <created>1699090971938</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699090971938</updated>
+    </task>
+    <task id="LOCAL-00009" summary="springboot与socket（高级流的使用）">
+      <created>1699091097091</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699091097091</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +283,11 @@
           <properties class="java.net.ConnectException" package="java.net" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/thread/ClientWrite.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -1,6 +1,7 @@
 package com.huli.springboot_socket.test;
 
 import cn.hutool.json.JSONUtil;
+import com.huli.springboot_socket.test.WebSocketMessage;
 
 import java.io.*;
 import java.net.Socket;
@@ -14,8 +15,8 @@ public class SocketClient {
         InputStream is;
         try {
             // 和服务器创建连接
-//            Socket socket = new Socket("10.255.26.14",18869);
-            Socket socket = new Socket("127.0.0.1", 1024);
+            Socket socket = new Socket("10.255.26.14",18869);
+//            Socket socket = new Socket("127.0.0.1", 1024);
             while (true) {
                 // 要发送给服务器的信息
                 os = socket.getOutputStream();
@@ -29,7 +30,6 @@ public class SocketClient {
                 socket.shutdownOutput();
 
                 // 从服务器接收的信息
-
 
                 is = socket.getInputStream();
                 br = new BufferedReader(new InputStreamReader(is));
