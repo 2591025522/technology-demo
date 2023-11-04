@@ -35,7 +35,7 @@ public class ServerReceiveThread implements Runnable{
                     oos.flush();
                     break;
                 }else {
-                    oos.println("接受用户:"+socket.getRemoteSocketAddress() + "的数据：" + jsonObject);
+                    oos.println("接受用户:"+socket.getRemoteSocketAddress() + "的数据：" + jsonObject );
                     oos.flush();
                 }
             }

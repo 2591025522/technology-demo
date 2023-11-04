@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74f6633-43d3-4d59-9a53-528d940e28e4" name="更改" comment="springboot与socket的结合通信">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/SocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="e74f6633-43d3-4d59-9a53-528d940e28e4" name="更改" comment="springboot与socket（高级流的使用）">
+      <change afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/WebSocketMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/communication/springboot_socket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication/springboot_socket/src/main/java/com/huli/springboot_socket/thread/ServerReceiveThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/main/java/com/huli/springboot_socket/thread/ServerReceiveThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication/springboot_socket/src/test/java/com/huli/springboot_socket/test/SocketClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -61,7 +63,7 @@
       <recent name="com.huli.springboot_socket.test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.SocketClient">
+  <component name="RunManager" selected="Spring Boot.SpringbootSocketApplication">
     <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huli.springboot_socket.test.ClientTest" />
       <module name="springboot_socket" />
@@ -140,8 +142,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.SocketClient" />
-        <item itemvalue="JUnit.SpringbootSocketApplicationTests.contextLoads" />
         <item itemvalue="应用程序.ClientTest" />
+        <item itemvalue="JUnit.SpringbootSocketApplicationTests.contextLoads" />
         <item itemvalue="应用程序.Main (5)" />
         <item itemvalue="应用程序.Main (4)" />
       </list>
@@ -168,7 +170,7 @@
       <workItem from="1698738516350" duration="7702000" />
       <workItem from="1699029266362" duration="129000" />
       <workItem from="1699029553803" duration="948000" />
-      <workItem from="1699067575009" duration="39000" />
+      <workItem from="1699067575009" duration="15745000" />
     </task>
     <task id="LOCAL-00001" summary="工厂模式创建">
       <created>1698633012745</created>
@@ -205,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698737151923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="springboot与socket（高级流的使用）">
+      <created>1699067764800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699067764800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +238,8 @@
     <MESSAGE value="工厂模式，抽象工厂，原型（没写）,规则链模式，模板模式（没写）" />
     <MESSAGE value="原型（没写）,模板模式" />
     <MESSAGE value="springboot与socket的结合通信" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot与socket的结合通信" />
+    <MESSAGE value="springboot与socket（高级流的使用）" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot与socket（高级流的使用）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
