@@ -27,7 +27,6 @@ public class Server {
             out = new PrintWriter(client.getOutputStream());
             get = new Scanner(client.getInputStream());
 
-
             new ServerWrite(out).start();
             new ServerReader(get).start();
 

@@ -13,8 +13,7 @@ public class ServerWrite extends Thread{
         this.out=out;
     }
     public void  run(){
-        out.println("服务端：已成功连接到远程服务器！");
-        out.flush();//将缓冲流中的数据全部输出
+        int i = 0;
         while(true){
             try{
                 get_key = new Scanner(System.in);
@@ -22,9 +21,13 @@ public class ServerWrite extends Thread{
                 if(msg!=null){
                     msg = "{\"api\":\"c_InspectionItem\",\"data\":{\"InspectionData\":\"xxx\"},\"logId\":1697768948240,\"status\":0}";
                 }
+                if (i==1){
+                    msg = msg + "你好：---";
+                }
                 out.println(msg);
                 out.flush();
                 //    System.out.println("请输入消息：");
+                i++;
             }catch(Exception e){
                 System.out.println("连接已断开！");
                 return;
